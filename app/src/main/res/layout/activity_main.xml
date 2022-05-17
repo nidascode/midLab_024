@@ -8,9 +8,9 @@
 
     <Button
         android:id="@+id/btn"
-        android:layout_width="180dp"
+        android:layout_width="178dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="127dp"
+        android:layout_marginBottom="186dp"
         android:text="@string/btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,25 +23,24 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="338dp"
         android:layout_marginEnd="1dp"
-        android:layout_marginBottom="369dp"
+        android:layout_marginBottom="59dp"
         android:entries="@array/spinner"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt"
+        app:layout_constraintTop_toBottomOf="@+id/txt1"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
-        android:id="@+id/txt"
-        android:layout_width="193dp"
+        android:id="@+id/txt1"
+        android:layout_width="253dp"
         android:layout_height="0dp"
-        android:layout_marginTop="218dp"
-        android:layout_marginEnd="98dp"
-        android:layout_marginBottom="95dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="94dp"
         android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/spinner"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

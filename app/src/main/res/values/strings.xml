@@ -2,7 +2,7 @@
     <string name="app_name">midLab_024</string>
     <string name="btn">check</string>
     <string-array name="spinner">
-        <item>true</item>
-        <item>false</item>
+        <item>True</item>
+        <item>False</item>
     </string-array>
 </resources>
